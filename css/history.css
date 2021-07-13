@@ -1,0 +1,36 @@
+/* conflict with history feature from browser added by modernizr.js */
+.history:not(html) {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.history__header {
+  padding: 0.5em 1em;
+  background-color: var(--surface);
+}
+
+.history__profile {
+  display: flex;
+}
+
+.history__pic {
+  
+}
+
+.history__search {
+  display: flex;
+  justify-content: space-between;
+}
+
+.history__input {
+  flex: 1;
+  border: none;
+  padding: 0.5em 1em;
+}
+
+.history__submit {
+  background: var(--primary);
+  color: var(--white);
+  border: none;
+  padding: 0.5em 1em;
+}

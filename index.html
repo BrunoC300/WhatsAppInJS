@@ -1,0 +1,118 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/history.css">
+  <link rel="stylesheet" href="css/history-chat.css">
+  <link rel="stylesheet" href="css/chat.css">
+  <link rel="stylesheet" href="css/chat-message.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!-- Add your site or application content here -->
+
+  <div class="main">
+
+    <section class="history">
+
+      <header class="history__header">
+        <div class="history__profile">
+          <img class="history__pic avatar" src="https://placeimg.com/640/480/people" alt="Nuno Pereira" />
+          <i class="fas fa-check"></i>
+          <i class="fas fa-check-double"></i>
+        </div>
+        <div class="history__controls">
+          <!-- icons -->
+        </div>
+      </header>
+
+      <form class="history__search">
+        <input js-history-input class="history__input" type="text" placeholder="Search or start new chat" name="history_chat" />
+        <button class="history__submit" type="submit"><i class="fas fa-search"></i></button>
+      </form>
+
+      <div class="history__talks">
+
+        <!-- <div class="history-chat">
+          <div class="history-chat__profile">
+            <img class="history-chat__pic avatar" src="https://placeimg.com/640/480/people" alt="Group X" />
+            <div class="history-chat__info">
+              <p class="history-chat__name">Group X</p>
+              <p class="history-chat__message">Mensagem</p>
+            </div>
+            <div class="history-chat__date">
+              21:34
+            </div>
+          </div>
+        </div> -->
+        
+      </div>
+
+    </section>
+
+    <div class="chat">
+
+      <div class="chat__header">
+        <img class="chat__pic avatar" src="https://placeimg.com/640/480/people" alt="Andaime" />
+        <div class="chat__info">
+          <p class="chat__name">Andaime</p>
+          <p class="chat__participants">André, Filipe, José, Luís, Nuno, Pedro, ...</p>
+        </div>
+      </div>
+
+      <div class="chat__container">
+        <div class="chat__messages">
+
+        </div>
+      </div>
+
+      <div class="chat__footer">
+        <form class="chat__form" action="">
+          <input class="chat__input" type="text" name="chat_message" placeholder="Type a message" />
+          <button class="chat__submit" type="submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+  
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/chat.js"></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>

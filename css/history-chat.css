@@ -1,0 +1,40 @@
+.history-chat {
+  background: var(--secondary);
+  padding: 0.5rem 1rem;
+  position: relative;
+  border-bottom: 1px solid var(--surface);
+  transition: 250ms;
+}
+.history-chat.hide {
+  opacity: .25;
+  /*display: none;*/
+}
+.history-chat__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.history-chat__pic {
+  width: 53px;
+  height: 53px;
+  margin-right: 1em;
+}
+.history-chat__info {
+  flex: 1;
+}
+.history-chat__name {
+  color: var(--white);
+  margin: 0;
+}
+.history-chat__message {
+  color: var(--surface);
+  margin: 0;
+  font-size: 0.85em;
+}
+.history-chat__date {
+  position: absolute;
+  right: 5px;
+  top: 2px;
+  font-size: 0.75em;
+  color: var(--primary);
+}
